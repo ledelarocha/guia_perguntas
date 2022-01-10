@@ -21,7 +21,7 @@ app.get("/:nome/:lang",(req,res) =>{
     res.render("index",{
         nome: nome,
         lang: lang,
-        empresa: "Guia do programador",
+        empresa: "Guia do programador 2",
         inscritos: 8040,
         msg: msgExibir,
         produtos: produtos
@@ -29,5 +29,5 @@ app.get("/:nome/:lang",(req,res) =>{
 })
 
 app.listen(8080,()=>{
-    console.log("App rodando!");
+    console.log("App rodando certinho!");
 })
